@@ -1,0 +1,57 @@
+body {
+    height: 100px;
+    background-image: url("seguridad.gif");
+    background-size: 200rem;
+    
+  }
+
+  h1{
+font-family: Impact, Charcoal, sans-serif;
+font-size: 40px;
+letter-spacing: 2.2px;
+word-spacing: 0px;
+color: #FFFFFF;
+font-weight: 700;
+text-decoration: underline solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+  }
+
+  h1 {
+    color:rgb(255, 255, 255);
+  }
+  
+
+#tablero {
+    text-align: center;
+    width: 100%;
+}
+
+#tablero>div {
+  width: calc((80%) / 8);
+  height: 100px;
+  display: inline-block;
+  margin: 2%;
+  cursor: pointer;
+  transition: transform ease .3s;
+  color: aliceblue;
+}
+#tablero>div:hover {
+  transform: scale(1.2);
+}
+
+.abrir img {
+display: inline-block;
+}
+
+.tarjeta {
+  display: none;
+  width: 100%;
+}
+
+.tarjetas {
+  width: 100%;
+  border: 1px solid;
+}
+
